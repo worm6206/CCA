@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cca" basedir="." default="clean-client">
+    <target name="clean-client">
+        <delete dir="dist"/>
+        <delete dir="generated"/>
+        <delete dir="node_modules"/>
+    </target>
+</project>

@@ -1,0 +1,11 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+div.view-container {
+  margin-top: -15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+.loading {
+    background:url('../img/loading.gif') no-repeat;  
+}
