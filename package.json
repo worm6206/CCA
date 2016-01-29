@@ -1,22 +1,23 @@
 {
-    "name": "CCA",
-    "title": "Columbus Chinese Academy",
-    "version": "0.0.1",
-    "private": true,
-    "author": {
-        "name": "Scott Hong",
-        "company": "Columbus Chinese Academy"
-    },
-    "devDependencies": {
-        "protractor": ">=0.8.0",
-        "jasmine-given": "~2.1.0",
-        "lineman": ">= 0.30.0",
-        "lineman-angular": ">= 0.2.0",
-        "lineman-less": "0.0.1",
-        "coffee-script": "~1.6.3"
-    },
-    "scripts": {
-        "start": "lineman run",
-        "test": "lineman spec-ci"
-    }
+  "name": "CCA",
+  "title": "Columbus Chinese Academy",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Scott Hong",
+    "company": "Columbus Chinese Academy"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "grunt": "^0.4.5",
+    "jasmine-given": "~2.1.0",
+    "lineman": ">= 0.30.0",
+    "lineman-angular": ">= 0.2.0",
+    "lineman-less": "0.0.1",
+    "protractor": ">=0.8.0"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
 }
